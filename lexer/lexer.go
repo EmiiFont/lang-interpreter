@@ -101,6 +101,7 @@ func (l *Lexer) NextToken() token.Token {
 
 // read if the token is a identifier (let, fn, variable)
 // and advances lexer position
+// keep reading until it finds a non-letter character
 func (l *Lexer) readIdentifier() string {
 	position := l.position
 	for isLetter(l.ch) {
