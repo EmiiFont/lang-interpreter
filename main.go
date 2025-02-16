@@ -15,7 +15,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("Hellow %s! This is the Moneky programming language\n", user.Username)
+	fmt.Printf("Hellow %s! This is the Sofia programming language\n", user.Username)
 	fmt.Printf("Feel free to type in commands\n")
 	repl.Start(os.Stdin, os.Stdout)
 }
