@@ -6,7 +6,6 @@ import (
 
 	"github.com/EmiiFont/lang-interpreter/ast"
 	"github.com/EmiiFont/lang-interpreter/lexer"
-	"github.com/aws/aws-sdk-go/service/costandusagereportservice"
 )
 
 func TestLetStatements(t *testing.T) {
